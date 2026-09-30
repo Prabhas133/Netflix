@@ -1,0 +1,141 @@
+
+.hero {
+    min-height: 100vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/4263c437-c678-4724-ad80-e3ba0dc8761e/web/IN-en-20260921-TRIFECTA-perspective_95810136-2c4a-4ab4-a323-50418521e261_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.b{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    width: 100px;
+    height: 40px !important;
+    padding: 5px 12px;
+    border-radius: 5px ;
+}
+
+.b:hover{
+    border: 2px solid white !important;
+}
+
+/* Language button  */
+.language-selector {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #777;
+    border-radius: 5px;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    padding: 0 10px;
+
+    height: 40px;
+}
+
+.language-icon {
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.language-selector select {
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.language-selector select option {
+    color: black;
+    background: white;
+}
+
+/* hero content  */
+.hero-content {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.05;
+    margin-bottom: 25px;
+}
+
+.hero-content h4 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hero-content p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.email-section {
+    display: flex;
+    gap: 10px;
+    width: 650px;
+}
+
+.email-input {
+    flex: 1;
+    height: 60px;
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid #777;
+    border-radius: 4px;
+    padding: 0 18px;
+    color: white;
+    font-size: 17px;
+}
+
+.email-input::placeholder {
+    color: #ccc;
+}
+
+.get-started {
+    width: 250px;
+    height: 60px;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 4px;
+    background: #e50914;
+    color: white;
+}
+
+.get-started p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.get-started:hover {
+    background: #c11119;
+}
+
+
